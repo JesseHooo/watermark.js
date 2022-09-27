@@ -1,0 +1,14 @@
+{
+  "name": "watermark",
+  "version": "1.0.0",
+  "description": "A watermark component developed in native JavaScript and DOM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "watermark"
+  ],
+  "author": "jessehoo",
+  "license": "ISC"
+}
