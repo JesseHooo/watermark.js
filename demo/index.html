@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<script type="module">
+    import WaterMark from '../utils/index.js'
+
+    window.onload=function (params) {
+        // demo use
+        WaterMark.create({
+            txt: '水印demo',
+            height: 400
+        })
+    }
+</script>
+<body>
+    <div class="page">
+        <div>
+            <p class="title">水印 Demo</p>
+            <p class="desc">原生js开发动态水印，单例模式，静态方法创建和销毁；</p>
+            <p class="desc">支持自定义文案，包括内容，字体大小，颜色，宽高等；</p>
+            <p class="desc">mutationObserver监听防篡改。</p>
+            <p class="by">@jessehoo</p>
+        </div>
+    </div>
+</body>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .page {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .title {
+        font-size: 50px;
+        margin-bottom: 18px;
+    }
+    .desc {
+        font-size: 24px;
+        margin-bottom: 12px;
+    }
+    .by {
+        margin-top: 24px;
+    }
+</style>
