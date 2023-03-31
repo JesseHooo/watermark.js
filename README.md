@@ -11,3 +11,5 @@ A watermark component developed in native JavaScript and DOM.
 3. anywhere 8000
 4. 访问http://localhost:8000/demo/
 
+# demo效果
+![image](/demo/demo.png)
